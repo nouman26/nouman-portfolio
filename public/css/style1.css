@@ -1,0 +1,99 @@
+.nav-item a{
+  text-align: center;
+  color: white;
+  margin-top: 2px;
+}
+.nav2 {
+  position: fixed;
+  background-color: black;
+  transition: width 600ms ease;
+  overflow: scroll;
+}
+
+.navba-nav {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.nav-item {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav2{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 415px){
+.hero .hero-title {
+    font-size: 1.5rem !important;
+}
+
+.hero .hero-subtitle {
+  font-size: 1rem !important;
+}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 416px){
+  .hero .hero-title {
+    font-size: 2rem !important;
+  }
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) {
+  .tp{
+    margin-top: 140px;
+  }
+  .nav1{
+    display: none;
+  }
+  .nav2 {
+    z-index: 3;
+    bottom: 0;
+    width: 100vw;
+  }
+  .navba-nav p{
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .navba-nav a{
+    color: white !important;
+  }
+  .navba-nav i{
+    font-size: 20px !important;
+  }
+  footer{
+    padding-bottom: 70px !important;
+  }
+  .back-to-top.active{
+    margin-bottom: 70px !important;
+  }
+  .navba-nav li {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  .socials {
+    text-align: center !important;
+  }
+
+  /* when user click then naviation active */
+.nav_mobile{
+  background-color: white !important;
+}
+.nav_mobile p{
+  color: black;
+}
+.nav_mobile i{
+  color: black;
+}
+}
